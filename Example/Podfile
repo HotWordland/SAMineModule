@@ -1,8 +1,9 @@
 use_frameworks!
-
 platform :ios, '9.0'
 
 target 'SAMineModule_Example' do
+  pod 'WLKit',   :git => 'https://github.com/HotWordland/WLKit', :branch => 'master'
+  pod 'WYNullView',  :git => 'https://github.com/HotWordland/WYNullView', :branch => 'master'
   pod 'SAMineModule', :path => '../'
 
   target 'SAMineModule_Tests' do

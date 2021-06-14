@@ -7,6 +7,7 @@
 //
 
 #import "SAAppDelegate.h"
+@import SAMineModule;
 
 @implementation SAAppDelegate
 
