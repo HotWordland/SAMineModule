@@ -17,7 +17,10 @@ SAMineModule is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'SAMineModule'
+pod 'SAMineModule' :git => 'https://github.com/HotWordland/SAMineModule', :branch => 'master'
+pod 'WLKit',   :git => 'https://github.com/HotWordland/WLKit', :branch => 'master'
+pod 'WYNullView',  :git => 'https://github.com/HotWordland/WYNullView', :branch => 'master'
+
 ```
 
 ## Author
